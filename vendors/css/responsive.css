@@ -1,0 +1,157 @@
+@media all and (max-width:1326px){
+    
+    .container {
+        max-width:1050px;
+        width:95%;
+        margin:0 auto;
+    }
+}
+@media all and (max-width:1120px){
+    .all_content_area {
+       flex-wrap: wrap
+    }
+}
+@media all and (max-width:1042px){
+    .all_price_area{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .second_price_area {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .third_price_area {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width:1070px){
+    .discount_area  {
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+    }
+}
+
+@media all and (max-width:984px){
+    .img_area {
+        margin-top: 11%;
+    }
+}  
+@media all and (max-width:932px){
+    .row {
+        flex-direction: column;
+      }
+      .single_footer_area {
+        padding-bottom: 5%;
+      }
+} 
+@media all and (max-width:910px){
+    .media_section {
+        flex-wrap: wrap;
+    }
+} 
+
+
+
+@media all and (max-width:812px){
+  
+    .menu ul{
+        display: none;
+        position: absolute;
+        top: 88px;
+        width: 100%;
+        right: 0px;  
+        background:#fff;
+        z-index: 99;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 30px;
+       
+    }
+    .menu ul li a{
+        color:black;
+    }
+    .creat_account{
+        display: none;
+    }
+    #menu_icon{
+        display: block;
+    }
+} 
+
+@media all and (min-width:812px){
+    .menu ul {
+        display: flex !important;
+      }
+}
+
+
+@media all and (max-width:754px){
+    .row_two {
+    flex-direction: column
+    }
+} 
+
+@media all and (max-width:664px){
+    .suscribe-btn input[type="submit"] {
+        right: -60%;
+    }
+    .suscribe-email input {
+        width: 74%;
+    }
+} 
+
+@media all and (max-width:570px){
+    .single_img_area img {
+        width: 271px;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+} 
+
+@media all and (max-width:552px){
+    .suscribe-btn input[type="submit"] {
+        right: -40%;
+    }
+    .suscribe-email input {
+        width: 55%;
+    }
+    .img_area img {
+        width: 172px;
+    }
+} 
+
+@media all and (max-width:508px){
+    .suscribe-btn input[type="submit"] {
+        top: 71px;
+        right: -10%;
+    }
+} 
+@media all and (max-width:500px){
+    img.big_img {
+        width: 275px;
+    }
+} 
+@media all and (max-width:405px){
+    .suscribe-btn input[type="submit"] {
+        top: 71px;
+        right: 14%;
+    }
+    .social_area ul li {
+        margin-left: 20px;
+    }
+}
+@media all and (max-width:320px){
+    .social_area ul li {
+    min-width: 124px;
+    }
+    .media_content_area h1 {
+        font-size: 24px;
+    }
+}

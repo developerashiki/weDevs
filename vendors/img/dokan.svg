@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="57.3324022%" y2="112.56301%" id="linearGradient-1">
+            <stop stop-color="#FFD3A5" offset="0%"></stop>
+            <stop stop-color="#FD6585" offset="100%"></stop>
+        </linearGradient>
+        <path d="M32.5728452,25.9380458 C37.5218402,23.1943432 63,19.7840577 63,43.4834588 C63,67.18286 43.0207236,62.6536675 43.0207236,62.6536675 C47.8243459,61.5883253 53.3042677,58.2077979 53.3042677,41.3527743 C53.3042677,24.4977507 32.5728452,25.9380458 32.5728452,25.9380458 Z M49.4424082,54.5951569 C49.4424082,54.5951569 47.4451126,61.1419528 41.3963408,61.9692298 C35.3475691,62.7965067 34.2225102,59.7076094 30.0193407,59.9218681 C29.9224868,59.0733556 30.1920982,58.2238157 30.7674888,57.5644694 C31.3428794,56.9051231 32.1756989,56.4913757 33.0784896,56.4163565 C36.4852691,55.9818873 42.8690303,56.8270192 47.1101231,54.3035269 C47.1101231,54.3035269 49.6383454,53.0655873 50.1123871,52.4644724 L49.4424082,54.5951569 Z M32.2631379,27.1164691 C38.1047639,27.0382308 43.8194887,28.7234944 48.5701715,31.9253882 C47.1392815,31.214044 45.454391,31.1101501 43.9372042,31.6397099 C42.0365833,32.3370308 40.7028893,33.9687164 40.4735397,35.8772723 C40.2586408,39.0375892 40.4735397,42.2693257 40.4735397,45.4355943 L40.4735397,54.9582065 C39.1082997,55.0772392 37.7557008,55.1248522 36.4915897,55.1248522 C35.2903655,55.1213838 34.0898188,55.1790001 32.8951935,55.2974496 C32.6823634,55.3262588 32.4713638,55.3659956 32.2631379,55.4164822 L32.2631379,35.2285443 L32.2631379,27.1164691 Z" id="path-2"></path>
+        <filter x="-54.5%" y="-30.8%" width="209.1%" height="192.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.11642264 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Coupon-Page-Design---Black-Friday" transform="translate(-450.000000, -679.000000)">
+            <g id="Group-7-Copy-2" transform="translate(450.000000, 679.000000)">
+                <g id="Group-7">
+                    <circle id="Oval-6-Copy-7" fill="url(#linearGradient-1)" cx="45" cy="45" r="45"></circle>
+                    <g id="Combined-Shape" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

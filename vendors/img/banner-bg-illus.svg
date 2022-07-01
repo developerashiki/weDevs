@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1487px" height="440px" viewBox="0 0 1487 440" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FEE5AC" offset="0%"></stop>
+            <stop stop-color="#FFB181" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFD1EE" offset="0%"></stop>
+            <stop stop-color="#FF6BAF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="43.7995665%" y1="147.545812%" x2="47.5600625%" y2="3.49210831%" id="linearGradient-3">
+            <stop stop-color="#00C592" offset="0%"></stop>
+            <stop stop-color="#E2FFE1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFA2A2" offset="0%"></stop>
+            <stop stop-color="#FF6868" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFA8E6" offset="0%"></stop>
+            <stop stop-color="#E850FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FEE5AC" offset="0%"></stop>
+            <stop stop-color="#FFB181" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="29.4556393%" y1="57.9293557%" x2="41.9155724%" y2="46.2194419%" id="linearGradient-7">
+            <stop stop-color="#00C592" offset="0%"></stop>
+            <stop stop-color="#E2FFE1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.385974702">
+        <g id="Coupon-Page-Design---weDevs---01" transform="translate(-216.000000, -190.000000)">
+            <g id="Group-16" transform="translate(-1.000000, 0.000000)">
+                <g id="Group-13" transform="translate(217.000000, 190.000000)">
+                    <g id="Group-17" transform="translate(0.000000, -0.000000)">
+                        <g id="Group-23">
+                            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="319" width="26" height="26" rx="10"></rect>
+                            <rect id="Rectangle" fill="#00F0FF" transform="translate(322.500000, 16.000000) rotate(-315.000000) translate(-322.500000, -16.000000) " x="311.5" y="5" width="22" height="22"></rect>
+                            <path d="M81,39 C81,39 102.460035,67.7669215 120.336406,49.5736834 C138.212778,31.3804454 140.538196,53.9733853 149.664725,62.3987407 C155.749078,68.0156444 162.41059,68.0156444 169.64926,62.3987407" id="Path-4" stroke="url(#linearGradient-2)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <polygon id="Path-5" fill="#102FEC" points="194 159 217.31705 173.496626 194 186.66718"></polygon>
+                            <path d="M184.792334,434.59567 C171.496073,438.427796 164.847942,435.075469 164.847942,424.538689 C164.847942,408.73352 177.265127,392.917189 160,391" id="Path-6" stroke="url(#linearGradient-3)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                        <rect id="Rectangle-Copy" fill="#00F0FF" transform="translate(1159.000000, 16.000000) scale(-1, 1) translate(-1159.000000, -16.000000) " x="1146" y="3" width="26" height="26" rx="10"></rect>
+                        <rect id="Rectangle-Copy-2" fill="url(#linearGradient-4)" transform="translate(1471.000000, 332.000000) scale(-1, 1) rotate(-315.000000) translate(-1471.000000, -332.000000) " x="1460" y="321" width="22" height="22"></rect>
+                        <path d="M1395.31699,27 C1395.31699,47.6596223 1380.18072,35.8333092 1374.23129,41.9394785 C1369.70046,46.5896664 1375.99423,56.1661159 1369.55719,59.0314122 C1363.12014,61.8967085 1359.60121,51.4943361 1350.04867,55.439343 C1340.49614,59.3843498 1340.30516,85.2736023 1322,77.4816913" id="Path-3" stroke="url(#linearGradient-5)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(1358.658494, 52.967564) scale(-1, 1) translate(-1358.658494, -52.967564) "></path>
+                        <polygon id="Path-5" fill="url(#linearGradient-6)" transform="translate(1278.341475, 172.833590) scale(-1, 1) translate(-1278.341475, -172.833590) " points="1266.68295 159 1290 173.496626 1266.68295 186.66718"></polygon>
+                        <path d="M1293.79485,426.135632 C1303.40215,418.579301 1312.73127,419.361497 1321.78222,428.48222 C1335.35865,442.163304 1339.93798,434.176092 1346,426.135632" id="Path-7" stroke="url(#linearGradient-7)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(1319.897424, 428.442143) scale(-1, 1) translate(-1319.897424, -428.442143) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

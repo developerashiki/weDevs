@@ -1,0 +1,567 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap");
+  
+ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,p,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+text-decoration:none;
+}
+a:hover {
+text-decoration:none;
+}
+.container {
+    max-width:1080px;
+    width:100%;
+    margin:0 auto;
+}
+
+
+/*============================================*/
+/*=========== Start Navbar area css ==========*/
+/*===========================================*/
+
+.header_area {
+    padding:20px 0;
+    background: #13038f; 
+}
+.head_text{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+}
+.logo img {
+    width: 182px; 
+}
+.menu ul{
+    display:flex;
+    align-items:center;
+    gap: 30px;
+}
+.menu ul li a{
+    color: #fff;
+    cursor:pointer;
+    text-transform:capitalize;
+}
+.menu ul li a:hover{
+    color:red;
+}
+i.fa-solid.fa-cart-shopping {
+    color: #fff;
+}
+.creat_account ul {
+    display: flex;
+    gap: 20px;
+}
+.sign_in a {
+    padding:14px 21px;
+    background: #007cf5;
+    border-radius: 40px;
+    color: #fff;
+}
+
+#menu_icon{ 
+    font-size: 28px;
+    color: #fff; 
+    float: right; 
+    border: 1px solid #fff;
+    padding: 2px 15px;
+    line-height: 31px; 
+    border-radius:5px; 
+    display:none; 
+    }
+
+/*============================================*/
+/*=========== Start Banner area css ==========*/
+/*===========================================*/
+
+.banner_area{
+    background: url(../img/banner-bg-illus.svg);
+    background-color: #13038f;
+    background-repeat: no-repeat;
+    background-color: #13038f;
+    background-position: top 190px center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 131px 0 210px;
+}
+.banner_title {
+    text-align: center;
+}
+.banner_text h1{
+    color: #fff;
+    font-weight: 800;
+    font-size:42px;
+    line-height:50px;
+}
+.banner_text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+}
+.suscribe-right {
+    width: 581px;
+    max-width: 100%;
+    border-radius: 25px;
+    display: inline-flex;
+    margin-bottom:0;
+    margin-top:19px;
+}
+.suscribe-right form {
+    position: relative;
+} 
+.suscribe-email input {
+    font-size: 15px;
+    color: #9b9b9b;
+    letter-spacing: 0.14px;
+    line-height: 35px;
+    padding: 8px 119px 7px 23px;
+    outline: 0 none;
+    width: 140%;
+    border-radius:3px;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+    border-radius: 25px;
+}
+.suscribe-email input::placeholder {
+    font-size: 15px;
+    color: #9b9b9b;
+}
+.suscribe-btn input[type="submit"] {
+    background: #ff0094;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 16px 48px;
+    border: none;
+    float: right;
+    font-size: 18px;
+}
+.suscribe-btn input[type="submit"] {
+    position: absolute;
+    top: 0px;
+    right:-85%;
+}
+/*============================================*/
+/*=========== Start prizing area css ==========*/
+/*===========================================*/
+
+.all_price_section{
+    background: #f5f7f9;
+    padding-bottom: 70px;
+}
+.all_price_area{
+    display: flex;
+    margin-top:-80px;
+}
+.single_price {
+    flex: 0 0 29.3%;
+    align-items: center;
+    margin: 2%;
+} 
+.second_price_section {
+    margin-top: 50px;
+} 
+.all_coupon_product {
+    position: relative;
+    background-color: white;
+    border: 2px solid #f9f9f9;
+    border-radius: 3px;
+    padding: 81px 50px 50px;
+    max-width: 337px;
+    margin: 0 auto;
+} 
+.all_coupon_product img {
+    position: absolute;
+    top:-38px;
+    left:44px;
+}
+  
+img.offer {
+    position: absolute;
+    top: -1px;
+    left: 262px;
+    width: 14%;
+}
+  
+.all_coupon_product h2 {
+    color: rgb(0, 0, 0);
+    font-size:30px;
+    font-weight:800;
+    line-height:31px;
+}
+.all_coupon_product p {
+    color: rgb(79, 91, 109);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+  
+.all_coupon_product a {
+    color: #fff;
+    background: #ff2c5d;
+    padding: 13px 25px;
+    border-radius: 30px;
+    font-weight: 900;
+    font-size: 17px;
+    text-shadow: 0 2px 3px rgb(0 0 0 / 18%);
+    transition: all 0.25s;
+    line-height: 17px;
+}
+.couopn__pricing_tag {
+    margin-bottom: 32px !important;
+    margin-right: -25px;
+}
+.couopn__pricing_tag .product_price {
+    color: red;
+    font-size: 39px;
+    font-weight: 800;
+}
+.couopn__pricing_tag sup._dolar_sign {
+    color: red;
+    font-weight: 500;
+    font-size: 25px;
+}
+.couopn__pricing_tag .starting__text {
+    font-size: 16px;
+    color: #677181;
+    font-weight: 400;
+    line-height: 1px;
+}
+.couopn__pricing_tag .starting__text i.icon_left {
+    margin-left: 8px;
+    font-size: 11px;
+    color: #b3c1d9;
+    font-weight: 700;
+}
+.second_price_area{
+    display: flex;
+}
+.third_price_area{
+    display: flex;
+}
+
+/*============================================*/
+/*=========== Start discount area css ==========*/
+/*===========================================*/
+
+.discount_area {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 127px;
+}
+.content_area {
+    padding-top: 78px;
+}
+.content_area h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 70px;
+    color: rgb(72, 72, 72);
+}
+.content_area p{
+    font-size: 12px;
+}
+.content_area p {
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    color: rgb(138, 138, 138);
+}
+/*============================================*/
+/*=========== Start media_section area css ==========*/
+/*===========================================*/
+.media_section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 130px;
+}
+.media_content_area{
+  flex:0 0 50%;
+}
+.social_area {
+	display: flex;
+    flex-direction: row;
+    max-width: 30%;
+}
+.social_area ul li {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 11%);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 147px;
+    min-height: 123px;
+    margin: 0 0 20px;
+}
+.left_side ul li i {
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+.right_side ul li i {
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+.social_area ul li a {
+    font-size: 13px;
+    margin-top: 16px;
+    text-transform: capitalize;
+    color: #3a599d;
+}
+.right_side {
+    padding-top:30px;
+}
+.fa-brands.fa-facebook-f.facebook {
+	background: #3a599d;
+}
+i.fa-brands.fa-youtube.youtube {
+    background: #bb0003;
+}
+i.fa-brands.fa-twitter.twitter {
+    background: #00aeef;
+}
+i.fa-brands.fa-linkedin-in.Linkedin {
+    background: #0e7bbb;
+}
+.media_content_area h1{
+    font-size: 37px;
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+}
+.media_content_area p{
+    font-size: 16px;
+    color: rgb(138, 138, 138);
+    font-weight: 400;
+    line-height:38px;
+}
+/*============================================*/
+/*=========== Start avout null area css ==========*/
+/*===========================================*/
+
+.avoid_null_area {
+	padding-top: 110px;
+}
+.all_content_area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.single_content_area h1 {
+	font-size: 32px;
+	font-weight: 700;
+	color: rgb(72, 72, 72);
+	line-height: 42px;
+}
+.single_content_area p {
+	font-size: 16px;
+	color: rgb(138, 138, 138);
+	line-height: 26px;
+}
+.single_img_area {
+	width: 51%;
+}
+/*============================================*/
+/*=========== Start all_user area css ==========*/
+/*===========================================*/
+.all_user_section_area {
+    padding: 141px 0;
+    background-color: #f7f9fb;
+    background-image: url(../img/coupon-cta-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.all_user_content {
+    background: #fff;
+    padding: 68px 45px 45px 57px;
+    box-shadow: 0 0 80px 0 rgb(0 0 0 / 12%);
+    max-width: 333px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+p.top_text {
+    line-height: 41px;
+    font-size: 21px;
+    color: #555;
+}
+span.trust_user {
+    background: #27ae60;
+    padding: 9px 14px 8px 14px;
+    color: #fff;
+    border-radius: 50px;
+}
+p.under_txt {
+    font-size: 25px;
+    color: rgb(85, 85, 85);
+    line-height: 56px;
+}
+/*============================================*/
+/*=========== Start footer area css ==========*/
+/*===========================================*/
+.payment_footer_area{
+    position: relative;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 124, 245, 0.12) 2%,
+        hsla(0, 0%, 100%, 0)
+      ),
+      url(../img/main-footer-bg.svg) no-repeat center 78px;
+    padding-top:70px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:24px;
+}
+.f_widget img {
+    height: 40px;
+    margin-bottom: 3px;
+}
+.f_widget h4 {
+    font-size: 25px;
+    color: rgb(44, 54, 70);
+    line-height: 90px;
+    font-weight: 400;
+}
+.footer__main_widget_subscribe__form {
+	align-items: center;
+	background: #fff;
+	box-shadow: 0 9px 30px 0 rgb(0 0 0 / 9%);
+	border-radius: 3px;
+	padding: 9px 19px 9px 20px;
+}
+input {
+    border: none;
+    font-size: 15px;
+    color: #9b9b9b;
+    outline: none;
+}
+button {
+	padding: 9px 12px 9px 12px;
+	background: #007cf5;
+	border: none;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 12px;
+}
+.social_icon {
+	display: flex;
+	gap:12px;
+	line-height:124px;
+}
+.social_icon li a i {
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	justify-content: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+.f_title {
+	font-size: 25px;
+	font-weight: 600;
+	color: rgb(44, 54, 70);
+    line-height:101px;
+    margin-top: -51px;
+}
+.f_list li a {
+	font-size: 18px;
+	font-weight: 400;
+	color: #74788b;
+	line-height: 47px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+.career {
+	background: #307cf5;
+    padding: 8px 13px;
+    font-size: 12px;
+    border-radius: 30px;
+    line-height: 1;
+    margin-left: 9px;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.25s;
+}
+.footer-product-icon:after {
+    position: absolute;
+    background-image: url(../img/dokan.png);
+    width: 11px;
+    height: 13px;
+    left: 50%;
+    top: 50%;
+    content: "";
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-product-icon {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 16px;
+    background: #fff;
+    box-shadow: 0 3px 6px 0 rgb(17 31 98 / 5%);
+}
+.f_list li a:hover{
+        color: blue;
+}
+.single_footer_area {
+    padding-top: 58px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_two {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 90px;
+	border-top: 1px solid #e9e9e9;
+	padding-top: 83px;
+}
+.copyright_content_area h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(116, 120, 139);
+    line-height: 34px;
+    width: 87%;
+}
+.copyright_payment_area img {
+    height: auto;
+    max-width: 100%;
+}
